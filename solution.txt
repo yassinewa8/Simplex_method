@@ -1,0 +1,6 @@
+////////////////////////Solution//////////////////////////////////////////////
+Optimal Solution has been achieved. 
+Number of loops:2
+Optimal value of 180000.0 has been reached.
+Initial Variables: x1 = 0.00 x2 = 0.00 x3 = 600.00 
+Slack Variables: s1 = 0.00 s2 = 600.00 s3 = 300.00 

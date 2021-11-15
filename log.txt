@@ -1,0 +1,32 @@
+////////////////////////input file detected////////////////////////
+3 3
+60 90 300
+1 1 1 600
+1 3 0 600
+2 0 1 900
+////////////////////////identifying contents////////////////////////
+Number of Constraint = 3 
+Number of Variable = 3
+Objective Function = [ 60.  90. 300.   0.   0.   0.]
+Constants =  [600. 600. 900.]
+constrain_matrix =
+ [[1. 1. 1. 1. 0. 0.]
+ [1. 3. 0. 0. 1. 0.]
+ [2. 0. 1. 0. 0. 1.]]
+coefficient_format = { x1 x2 x3 x4 x5 x6 }
+initial_variabls = { x1 x2 x3 } 
+slack_variabls = { x4 x5 x6 }
+////////////////////////////////////////////////////////////////////////////////
+1.loop
+Objective Row Sacks Variables = 0 0 0
+Objective_Row	 x1: 60.0 	 x2: 90.0 	 x3: 300.0 	 
+Pivot Row is x3
+Pivot Row Value =[1. 0. 1.]
+Ratio x4: 600.0000	x6: 900.0000	
+Pivot Row is the least non-negative ratio
+Choosing ratio x4
+Solution_Column = [600. 600. 300.]
+////////////////////////////////////////////////////////////////////////////////
+2.loop
+Objective Row Sacks Variables = [300.   0.   0.]
+Objective_Row	 x1:[-240.] 	 x2:[-210.] 	 x4:[-300.] 	 
